@@ -21,10 +21,10 @@
 
 #if !defined(DEVICE_USBDEVICE) || !DEVICE_USBDEVICE
 
-USBPhy *get_usb_phy()
-{
-    error("This board does not have a hardware USB driver");
-    return NULL;
-}
+//USBPhy *get_usb_phy()
+//{
+//    error("This board does not have a hardware USB driver");
+//    return NULL;
+//}
 
 #endif
